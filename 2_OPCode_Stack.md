@@ -34,14 +34,18 @@ means, `sp -= 18`
 when store/load ing multiple values,
 
 `STMIA` : store and increase after
+`STMEA` : empty ascending
 - *(p++)
 
 `STMIB` : increase before
+`STMFA` : full ascending
 - *(++p)
 
 `STMDA` : decrease after
+`STMED` : empty descending
 
 `STMDB` : decrease before
+`STMFD` : full descending
 
 used for multiple value store
 
@@ -62,3 +66,4 @@ when loading change `ST` to `LD`
 - just pop(LD) from the stack!
 2. return to orginal flow.
 - branch (b, bx) to `lr`
+- or pop the pc to the stored lr (32bit)
