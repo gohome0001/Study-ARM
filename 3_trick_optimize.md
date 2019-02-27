@@ -28,3 +28,13 @@ using `mul` instruction,
 lea ecx, dword ptr [eax,eax*4]
 ```
 wow!
+
+3. inline functions
+
+in past, inline function needed `inline` keyword.
+
+however, in these days, inline functions are chosen by compiler.
+
+usually once-used function..
+
+it's more cheap for once-used functions.
