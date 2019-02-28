@@ -5,6 +5,7 @@ Study ARM ISA for Reverse Engineering
 
 - [ ] Study About ARM architecture
 - [ ] Do some reverse-engineering (solve problems,..)
+  - solve https://challenges.re/ problem
 
 and else
 
