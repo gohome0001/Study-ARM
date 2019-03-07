@@ -64,7 +64,7 @@ struct std_string{
 	size-t refcount;
 }
 
-// std::string 's metadata is located in 
+// std::string 's metadata is located where
 // (object's address - sizeof(struct std_string))
 ```
 
@@ -87,4 +87,13 @@ seem like gcc just uses `atexit()` and MSVC does more with it.
 
 ### 2. std::list
 
-TODO : rest of it..
+It is an implementation of double-linked list, and also a circulaer list.
+
+GCC and MSVC has similar implementation.
+
+*TODO : STL things, will skip to next chapter temperary*
+
+
+
+
+
