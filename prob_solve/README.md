@@ -6,4 +6,4 @@
 
 ## helpful ref.
 
-- fall into the bitwise operation's world! : [here](https://graphics.stanford.edu/~seander/bithacks.htm)
+- fall into the bitwise operation's world! : [here](https://graphics.stanford.edu/~seander/bithacks.html)
