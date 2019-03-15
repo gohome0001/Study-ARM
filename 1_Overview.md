@@ -84,3 +84,7 @@ x가 아니라 w를 prefix로 붙이면 하위32bit register로써 접근 가능
 Just remember that `word` in arm is 32bit size.
 - halfword : 16bit
 - d(double)word : 64bit
+
+## condition codes
+
+[table of condition codes](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0231b/BABJAJIB.html)
